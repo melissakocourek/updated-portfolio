@@ -248,6 +248,7 @@ div.gallery {
     margin: 0 auto;
 
 }
+.social-icon {display: inline-block; margin: 0 10px}
 
 .icon {
     height: 20px;
