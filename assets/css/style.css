@@ -243,7 +243,9 @@ div.gallery {
       input[type=submit]:hover {
         background-color: #45a049;
       }
-
+.card-deck {
+    margin: 0 auto;
+}
 .card-img {
     margin: 0 auto;
 
