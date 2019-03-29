@@ -31,12 +31,24 @@ h3{
     padding-left: 20px;
     padding-right: 20px;
   }
+
 .container {
     position: relative;
+
     margin-top: 60px;
  
   }
-
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 900;
+    color:white;
+  }
+ 
 /* NAVBAR */
 .dropdown {
     font-weight: lighter;
@@ -87,15 +99,7 @@ h3{
     margin: 0 auto;
   }
 
-  /* Home gallery slides */ 
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer;}
-.w3-badge {height:10px;width:10px;padding:0}
-.w3-container{
-    margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
+
 .img-thumbnail {
     display:block;
 }

@@ -1,6 +1,3 @@
-var myIndex = 0;
-carousel();
-
 
                     (function($) {
                         $(function() {
