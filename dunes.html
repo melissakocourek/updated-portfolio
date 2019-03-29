@@ -10,6 +10,21 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <style>
+                .grid { 
+                  display: grid;
+                  align-items: stretch;
+  justify-items: center;
+                  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                  grid-gap: 15px;
+             
+                  }
+                .grid img {
+                  border: 1px solid #ccc;
+                  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+                  max-width: 100%;
+                }
+                </style>
     </head>
     <body>
             <nav class="navbar navbar-default" role="navigation">
@@ -51,74 +66,64 @@
                 </li>
                 
               </ul>
-                 
-        <div class="container">
-  
-                <h3>Portfolio</h3>
-                
-                <div class="responsive">
-                  <div class="gallery">
-                        <figure class="wp-caption">
-                                <img class="demo" src="peak.jpg" alt="Image" />
-                                  <figcaption class="wp-caption-text">Photography</figcaption>
-                                  </figure>
-                  </div>
+              <div class="container">
+                    <div class="row">
+                            <div class="col-sm">
+                             <picture>
+                                    <source srcset="assets/images/Dunes.jpg" type="image/svg+xml">
+                                        <a href="Dunes.html"target="_blank">
+                                        <img src="assets/images/Dunes.jpg" class="img-fluid" alt="..."></a>
+                                 </picture>
+                            </div>
+                            <div class="col-sm">
+                             <picture>
+                                    <source srcset="assets/images/Dunes5.jpg" type="image/svg+xml">
+                                        <img src="assets/images/Dunes5.jpg" class="img-fluid" alt="...">
+                                        </picture>
+                            </div>
+                            <div class="col-sm">
+                                    <picture>
+                                            <source srcset="assets/images/Dunes4.jpg" type="image/svg+xml">
+                                                <img src="assets/images/Dunes4.jpg"  class="img-fluid" alt="...">
+                                                </picture>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-sm">
+
+                             <picture>
+                                    <source srcset="assets/images/Dunes.jpg" type="image/svg+xml">
+                                        <img src="assets/images/Dunes.jpg" class="img-fluid" alt="...">
+                                 </picture>
+                            </div>
+                            <div class="col-sm">
+                             <picture>
+                                    <source srcset="assets/images/Dunes2.jpg" type="image/svg+xml">
+                                        <img src="assets/images/Dunes2.jpg" class="img-fluid" alt="...">
+                                        </picture>
+                            </div>
+                            <div class="col-sm">
+                                    <picture>
+                                            <source srcset="assets/images/Dunes3.jpg" type="image/svg+xml">
+                                                <img src="assets/images/Dunes3.jpg"  class="img-fluid" alt="...">
+                                                </picture>
+                            </div>
+                          </div>
                 </div>
-                
-                
-                <div class="responsive">
-                  <div class="gallery">
+              
+                 
+<br>
+<br>
+              
+              <div class= footer>
+                    <a class="icon" href="https://www.facebook.com/melissaray.mn/"target="_blank"><img src="facebook.png" width="20" height="20"></a> 
+                    <a class="icon" href="https://github.com/melissakocourek"><img src="github-sign (2).png" width="20" height="20"></a> 
+                    <a class="icon" href="https://www.instagram.com/melissaray.mn/"target="_blank"><img src="instagram (1).png" width="20" height="20"></a> 
+                    <a class="icon" href="https://www.linkedin.com/in/melissakocourek/"target="_blank"><img src="c4aec1df8b.png" width="20" height="20"></a> 
+                </div>
                     
-                <figure class="wp-caption">
-                        <img class="demo" src="palm.jpg" alt="Image" />
-                        <figcaption class="wp-caption-text">Videography</figcaption>
-                         </figure>
-                  </div>
-                </div>
-                
-                <div class="responsive">
-                  <div class="gallery">
-                     
-                <figure class="wp-caption">
-                        <img class="demo" src="flower.jpg" alt="Image" />
-                        <figcaption class="wp-caption-text">Applications</figcaption>
-                         </figure>
-                  </div>
-                </div>
-                
-                <div class="responsive">
-                  <div class="gallery">
-                     
-                <figure class="wp-caption">
-                        <img class="demo" src="plant.jpg" alt="Image" />
-                        <figcaption class="wp-caption-text">Design</figcaption>
-                         </figure>
-                  </div>
-                </div>
-                
-                <div class="clearfix"></div>
-                <div style="padding:6px;">
-                  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-                  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-                </div>
-     
-
-
-        </div>
-                 
- <br>
- <br>             
     
-        <div class= footer>
-                <a class="icon" href="https://www.facebook.com/melissaray.mn/"target="_blank"><img src="facebook.png" width="20" height="20"></a> 
-                <a class="icon" href="https://github.com/melissakocourek"><img src="github-sign (2).png" width="20" height="20"></a> 
-                <a class="icon" href="https://www.instagram.com/melissaray.mn/"target="_blank"><img src="instagram (1).png" width="20" height="20"></a> 
-                <a class="icon" href="https://www.linkedin.com/in/melissakocourek/"target="_blank"><img src="c4aec1df8b.png" width="20" height="20"></a> 
-            </div>
-                
-    
-
-
+             
     
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -126,4 +131,3 @@
      <script src="assets/javascript/javascript.js"></script>
     </body>
 </html>
-            
