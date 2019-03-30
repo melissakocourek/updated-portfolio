@@ -15,6 +15,12 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+h2{
+  font-family: 'Thasadith', sans-serif;
+  font-size:20px;
+  text-align:center;
+
+}
 h3{
     font-family: 'Thasadith', sans-serif;
     font-size:20px;
